@@ -1,0 +1,22 @@
+Conceito:
+A logica de programação é baseada em algoritmos, que nada mais são do que uma sequencia de ações 
+que quando executadas resolvem um determinado problema ou tipo de situação. Serve como um passo
+a psso organizado de maneira logica.
+
+
+Estrutuda de um Software:
+Comandos de entrada: Input - Momentos de interação com o usuário
+Comandos de processamento: Process - Verificações e ações para relizar a execução 
+Comandos de saida: Output - Retornar resultados do processamento para o usuário
+
+A grande maioria dos Softwares possuem essa estrutura, cada feature que o sistema sera capaz de fazer
+tem essa estrutura como base para seu funcionamento.
+
+FEATURE: nada mais é do que Funcinalidade. Cada feature possui seu proprio algoritmo alem da sua estrutura
+de input, process e output.
+
+
+IDE:
+Atualmente o ambiente e ferramenta de codificação mais ultilizado são as IDE's, a tradução para IDE seria
+Integrate Developer Enviroment ou Ambiente de Desenvolvimento Integrado.
+A vantagem de programar através de uma IDE é o fato de que elas são o ambiente perfeito para isso, possuem diversos recursos que auxiliam no desenvolvimento do algoritmo e na melhor compreesão do ambiente
