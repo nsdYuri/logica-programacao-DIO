@@ -1,8 +1,0 @@
-Vetores e Matrizes são basicamente coleções de variávies, onde dentro delas é possivel armazenar diversos valores de variados tipos. Essas coleções são chamadas de arrays, e possuem suas diferenças.
-
-Vetor: É um array uni-dimensional, sendo capaz de armazenar diversos valores. Caso seja necessário adicionar o nome de 50 alunos, com o vetor é possivel criar uma variavel chamada "alunos" e dentro dela armazenar o nome de 50 alunos diferentes dentro de 50 posições diferentes, ficando respectivamente cada aluno com sua posição dentro do array. Essa posição é chamada de indice, e é através dela que sera possivel fazer a manipulação do array. É uma boa prática sempre utilizar vetores para armazenar valores do mesmo tipo.
-
-Matriz: Esse é um array multi-dimensional, de maneira bem clara, é um vetor de vetores, ou seja, dentro de uma matriz existem diversos vetores com diversas quantidades de posições, seguindo o exemplo anterior, se fosse preciso armazenar as notas dos alunos, seria necessário criar outro vetor. Com a matriz, é possivel adicionar esse novo vetor dentro do seu escopo, tendo assim um  vetor de alunos e um de notas dentro da mesma matriz.
-
-
-Tendo esse conhecimento de coleções, é sempre bom ressaltar que os indices sempre irão iniciar em 0, ou seja toda vez que um vetor ou matriz for criado, é importante saber que o indice do primeiro valor ou item sempre sera 0, e assim em diante.

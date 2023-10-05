@@ -25,6 +25,10 @@ console.log(materias)
 materias.reverse()
 console.log(materias)
 
+
+// Propriedades
 // indexOf traz o indice correspondente ao item entre parenteses que deve ser o mesmo presente no array
 let index = materias.indexOf('Java')
 console.log(index)
+
+console.log(materias.length)
