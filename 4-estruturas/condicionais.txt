@@ -1,0 +1,43 @@
+Dentro do Capitulo sobre estruturas, sera abordaddo primeiramente as estruturas condicionais. Mas antes é necessário saber oque exatamente é uma estrutura?
+São partes com inicio e fim dentro do codigo fonte que executam uma determinada codigo em especifico, essas partes com inicio e fim são chamas de estruturas, pois possuem o seu próprio corpo, no mundo da programação existem as estruturas condicionais e as de repetição.
+
+Estruturas Condicionais:
+É basicamente um pedaço do código que só é executado se a condição passada no inicio da estrutura for verdadeira, case contrário, esse pedaço é completamente ignorado.
+Existem 3 tipos de estruturas condicionais: IF (SE), ELSE (SENAO), ELSE IF (SENAO ENTÃO), cada uma possui sua funcionalidade e algumas precisam das outras para existirem.
+
+IF: Partindo do inglês, 'if' significa 'se', nas estruturas condicionais apresentamos uma condição, dessa maneira a estrura do if é bem simples, ele literalmente diz: se condição for verdadeira execute o seguinte codigo. Sua sintaxe em JavaScript seria:
+
+    if (nome == "Yuri"){
+        console.log("Bem vindo Yuri")
+    }
+
+O entendimento é simples, se começa dizendo 'if', em seguida a condição analisada será passada dentro dos parentes, para indicar o inicio e fim do bloco de código a ser executado é utilizado as {}, tudo que esta dentro sera executado se (if) a condição entre parentes for verdadeira.
+
+Essa maneira apresentada é o IF sozinho, no caso se a condição for falsa nada acontece.
+
+ELSE: Caso for preciso que algo em especifico seja executado caso a afirmação for falsa, é incluido a estrura ELSE ao fim do IF. Nela não é passado nenhuma condição, pois ela é executada automaticamente em casos de falta afirmação passada no IF. Seguindo o mesmo exemplo anterior o, else funciona da seguinte maneira:
+
+    if (nome == "Yuri"){
+        console.log("Bem vindo Yuri")
+    } else {
+        console.log("Usuário não identificado")
+    }
+
+É perceptivel que para que exista um ELSE é preciso ter um IF antes.
+
+
+Se o intuito for fazer varias validações ao mesmo tempo, seria possivel criar diversos IF's, porem ao inves disso, as linguagens disponibilizaram uma estrutra que permite is adicionando outras aformações, uma atrás da outra. Essa estrutura é chamada de ELSE IF.
+
+ELSE IF: É como se fosse uma junção das duas ultimas estruturas, isso porque ela possui um ELSE, ou seja caso a afirmação anterior for falsa, essa entra em validação, pois possui junto do else um IF, permitindo com que seja possivel fazer uma nova afirmação. Seguindo o mesmo exemplo anterior, o else if funciona da seguinte maneira:
+
+    if (nome == "Yuri"){
+        console.log("Bem vindo Yuri")
+    } else if (nome == "Derek"){
+        console.log("Bem vindo Derek")
+    } else {
+        console.log("Usuario não encontrado")
+    }
+
+Pelo fato do ELSE if permitir a inclusão de uma nova validação condicional, essa estrutura vem antes do ELSE, que ira ser executado apenas se todas as validações forem falsas.
+
+No exemplo acima, a ordem seria a seguinte. Se a condição do IF for falsa, ele vai diretamente para a condição do ELSE IF, caso tambem seja falsa, ele pula para o bloco do ELSE. Caso alguma das condições anteriores forem verdadeiras, as outras não serão executadas.
