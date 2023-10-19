@@ -1,0 +1,36 @@
+Dentro do Capitulo sobre estruturas, sera abordaddo agora sobre as estruturas de Repetição. Mas antes é necessário saber oque exatamente é uma estrutura?
+
+São partes com inicio e fim dentro do codigo fonte que executam uma determinada codigo em especifico, essas partes com inicio e fim são chamas de estruturas, pois possuem o seu próprio corpo, no mundo da programação existem as estruturas condicionais e as de repetição, alem dessas duas existe também a estrutura de decisão, porem essa por sua vez não esta presente em todas as linguagens.
+
+As estrutuas de repetição também são chamadas de laço de repetição, possuem esse nome poruqe tem a ideia de executar um comando diversas vezes ou apenas uma vez dependendo de sua condição, para existem 3 tipos de laços, pré condicional, pós condicionail e contador.
+
+
+Pré-Condicionail (Enquanto faça): Tambem conhecido como While, é uma estrutura de repetição que primeiramente verifica uma condição, se for verdadeira o codigó dentro dessa estrutura é executado repetidamente até que a condição seja falsa, caso a condição seja falsa logo de primeiro plano, o código não é executado. Seua sintaxe é:
+
+while (condição){
+    comandos a serem
+    executados;
+}
+
+Em algumas situações utilizando o whiile, principalmente com numeros, é sempre bom usar o incremento (++) no bloco de comando, sem este incremento o laço entrará em um loop infinito. O incremento adiciona sempre mais 1 a variavel. 
+
+
+
+Pós-Condicional (Faça enquanto): Esse por sua vez é chamado de Do While, não esta presente em todas as linguagens, mas nesse caso, o comando vem antes da condição, nesse caso, ele é executado pelo menos uma vez antes da condição ser verificada, caso for verdadeira a repetição continua, senão a execução é encerrada. Sintaxe:
+
+Do {
+    comandos a serem 
+    executados;
+} while (condicao);
+
+Importante lembrar que o Do While SEMPRE ira executar o bloco de comando pelo menos uma vez, mesmo se a condição for falsa
+
+
+
+Contador (Para): Por fim, o laço contador é chamado de For, sua principal caracteristica é que dentre os outros ele é o único em que é possivel determinar o numero de vezes desejadas para que o laço se repetita, diferente das outras estruturas, o For recebe algumas condições especificas em como parametros. O primeiro parametro é a variavel contadora, ou a partir de que o laço deve iniciar, se for 0 iniciara em 0, se for 1 iniciara em 1 e assim por diante. Separado por ";" é definido o segundo parametro, que por sua vez será aquele de ira determinar a condição de saida ou encerramento do laço, basicamente o seu limite, seguindo a mesma lógica, se o limite for < 4, assim que a contagem chegar em 3 a execução é finalizada, e a lógica funciona assim, sempre utilizando o sinal de menor (<). O ultimo mas não menos importante parametro é a regra de incremento que aquela contagem deve seguir, o mais comum é de um em um, com o sinal de (++), porem se necessário é possivel alterar para maneira que desejar. Com os parametros definidos, basta abrir e fechar as chaves para declarar o codigo a ser executado e pronto. Sintaxe:
+
+
+for (var de inicio; condicao de fim; incremento){
+    comandos a serem;
+    executados;
+}
