@@ -1,0 +1,11 @@
+Dentro do Capitulo sobre estruturas, sera abordaddo agora sobre as estruturas de decisão. Mas antes é necessário saber oque exatamente é uma estrutura?
+
+São partes com inicio e fim dentro do codigo fonte que executam uma determinada codigo em especifico, essas partes com inicio e fim são chamas de estruturas, pois possuem o seu próprio corpo, no mundo da programação existem as estruturas condicionais e as de repetição, alem dessas duas existe também a estrutura de decisão, porem essa por sua vez n esta presente em todas as linguagens.
+
+O nome mais popular e que referencia a estrutura de decisão é o switch case. Essa estrutura é muito semelhante ao if e else, porem com algumas diferenças e funcionalidades espeficicas, alem de possuir algumas funções essenciais comoo break e o default.
+
+O break tem o objetivo de forçar com que a execução pare após realizar o comando dentro do case no qual corresponde com a condição. Caso contrário a estrutura executa todos os cases a baixo do verdadeiro.
+
+O default por sua vez é um bloco genérico que é executado apenas se todos os outros cases tiverem suas condições falsas. Funciona basicamente como um else, ele não é obrigatório na estrutura, mas serve como um complemento.
+
+Tendo conhecimento de tudo isso, uma possibilidade adicional que é possivel fazer com o switch case é adicionar mais de um caso para cada execução. Por exemplo, com base no código js, ao invés do caso aceitar apenas o numéro correspondente ao mês, ele tambem aceita qual seria sua classificação de maneira escrita em relação ao ano completo.
