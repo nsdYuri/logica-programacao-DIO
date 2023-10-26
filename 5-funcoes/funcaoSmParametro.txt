@@ -1,0 +1,12 @@
+As funções são essenciais aqui no mundo da programação, estão presente em todas as linguagens e a criação delas é considerada uma boa prática ao decorrer do código fonte, pois elas além de organizar o algorimto, torna alguns trechos dele reutilizaveis. O intuito delas é ralizar oque o próprio nome já diz, uma função, já que criamos elas exatamente para isso, por exemplo, ao codificar o projeto de um sistema podemos ter uma função de login ou cadastro, seria basicamente um código especifico atribuito a essa função que só é executado quando a chamamos. Para nomear uma função usamos a palavra chave 'function' (essa palavra chave varia de linguagem para linguagem), em seguida basta colocar o nome desejado, é sempre bom ser bem literal, então nesse caso criariamos uma função chamada cadastro, dentro dela o código com as funcionalidades necessárias e depois basta chamar a função em qualquer lugar do código fonte que todo aquele trecho escrito sera executado. 
+
+Dentro desse tópico de funções, existem as com parametros e as sem parametros, além disso, elas podem ou não retornar alguma coisa ao final da execução
+
+Função Sem Parametros:
+É um modelo de função que não apresenta nenhum tipo de regra ou requisito para ser executada, por não haver parametros, ela não depende de nenhum dado. Geralmente as funções sem parametros se encaixam mais em situações em que queremos reutilizar trechos de código que seus valores nunca serão alterados. como por exemplo um menu de configurações e etc. 
+
+Exemplo da sintaxe das funções:
+
+function nomeDaFuncao(){
+    algorimto da funcao
+}
