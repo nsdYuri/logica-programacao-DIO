@@ -1,0 +1,13 @@
+As funções são essenciais aqui no mundo da programação, estão presente em todas as linguagens e a criação delas é considerada uma boa prática ao decorrer do código fonte, pois elas além de organizar o algorimto, torna alguns trechos dele reutilizaveis. O intuito delas é ralizar oque o próprio nome já diz, uma função, já que criamos elas exatamente para isso, por exemplo, ao codificar o projeto de um sistema podemos ter uma função de login ou cadastro, seria basicamente um código especifico atribuito a essa função que só é executado quando a chamamos. Para nomear uma função usamos a palavra chave 'function' (essa palavra chave varia de linguagem para linguagem), em seguida basta colocar o nome desejado, é sempre bom ser bem literal, então nesse caso criariamos uma função chamada cadastro, dentro dela o código com as funcionalidades necessárias e depois basta chamar a função em qualquer lugar do código fonte que todo aquele trecho escrito sera executado. 
+
+Dentro desse tópico de funções, existem as com parametros e as sem parametros, além disso, elas podem ou não retornar alguma coisa ao final da execução. É sobre isso que iremos falar, o 'Return'.
+
+Return:
+Essa funcionalidade é muito presente nos sistemas atuais pois possibilita definirmos qual sera o resultado que a função que criarmos retornará, isso serve caso seja necessário utilizaro esse resultado em alguma outra parte do código, com o return esse valor fica armazenado naquela função em especifico, podendo ser usada em qualquer momento.
+
+Exemplo da sintaxe: Nada mais do que colocar a palavra Return na ultima linha da funcção e logo em seguida oque deseja retornar
+
+function nomeFuncao(){
+    algoritmo da funcao
+    return oqueDesejaRetornar
+}
