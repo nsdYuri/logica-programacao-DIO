@@ -1,0 +1,40 @@
+Classes e Objetos
+Assim como em todos os outros tópicos, as classes e objetos também estão presentes em quase todos os sistemas e projetos desenvolvidos, esses dois conceitos andam bem próximos, basicamente um complmentando o outro. 
+Nesse arquivo em especifico sera aprofundado o estudo dos Objetos.
+
+Os objetos basicamente trazem o mundo real para dentro da programação, pois ele é uma materialização de uma classe. Por exemplo, existe a classe chamada pessoa, algumas caracteristicas dessa classe são, nome, idade, peso, altura, genero. 
+Criar um objeto nada mais é do que criar uma pessoa baseada nas caracteristicas da classe, como: nome = Yuri, idade = 19, peso = 80, altura = 1.85, genero = masculino.
+Fazendo isso eu acabei de INSTANCIAR um objeto a partir da classe pessoa.
+
+Para os computadores a definição de objeto vai além da definição que usamos na vida real, por isso que no exemplo acima é criado um objeto pessoa, pois llteralmente tudo da vida real que tentarmos representar através do computador será classificado como objeto.
+
+
+PONTOS IMPORTANTES:
+
+1° Por boas práticas, é essencial que toda classe tenha um método chamado de 'construtor'. Esse método é uma função que serve para inicializar uma classe, pois é dentro dos parametros do construtor que passaremos os dados que precisam existir ou serem processados em um objeto. Ja dentro da estrutura do contrutor utilizamos o 'this.' para se referir a clase e logo em seguida atribuimos a cada um dos parametros incluidos, fazendo a referencia de que nossa classe tera como atributos os parametros passados no método contrutor. Exemplo:
+
+class pessoa{
+    constructor(nome, idade, altura, peso, genero){
+        this.nome = nome;
+        this.idade = idade;
+        this.alutra = altura;
+        this.peso = peso;
+        this.genero = genero;
+    }
+}
+
+2° Para INSTANCIAR um Objeto, primeiro é necessário criar uma variavel, dentro dela se utiliza a palavra chave 'new' e em seguida o nome da classe(), dentro dos parenteses passar todos os dados atribuidos a classe através do contrutor. Seguindo o mesmo exemplo:
+
+let ike = new pessoa('Yuri', 19, 1.85, 80, 'masculino')
+
+Se dermos um console.log, a saida no terminal é a seguinte:
+
+pessoa {
+  nome: 'Yuri',
+  idade: 19,
+  alutra: 1.85,
+  peso: 80,
+  genero: 'masculino'
+}
+
+Nota-se que visualmentre é a mesma estrutura de dados que o JSON, então qual o momento correto de usar cada um deles. Simples, a estrutura JSON é utilizada quando queremos transferir dados de um sistema para outro, ja que é universal entre linguagens, ja as classes e objetos não, cada linguagem tem sua maneira de abordar essas funcionalidades, por isso optamos por eles quando o intuito é fazer uma transferencia de dados pelo mesmo sistema
