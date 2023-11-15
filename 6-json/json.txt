@@ -1,0 +1,6 @@
+JavaScript Object Notation ou mais conhecido como JSON, é basicamente um agrupamento de dados de maneira mais organizada, está presente em todas as linguagens de programação. Serve como um armazenamento de dados onde é possivel fazer a transfência deles de para onde quiser de uma maneira mais facil. Uma definição bem simples seria que JSON é uma maneira de transferir dados agrupados com maior facilidade.
+Os objetos JSON são compostos pela estutura chave e valor, assim como nos dicionarios vistos anteriormente.
+
+O escopo de uma estrutura JSON é declarada entre chaves, onde é permitido o uso de variaveis, vetores e matrizes para melhor agrupamento dos dados.
+
+
