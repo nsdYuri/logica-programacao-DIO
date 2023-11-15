@@ -21,6 +21,8 @@ class pessoa{
     }
 }
 
+OBS: O 'this' serve justamente para fazer uma indicação, é como se estivesse dizendo que esssa(this) variavel nos parametros vai ser as que usaremos no objeto.
+
 2° Para INSTANCIAR um Objeto, primeiro é necessário criar uma variavel, dentro dela se utiliza a palavra chave 'new' e em seguida o nome da classe(), dentro dos parenteses passar todos os dados atribuidos a classe através do contrutor. Seguindo o mesmo exemplo:
 
 let ike = new pessoa('Yuri', 19, 1.85, 80, 'masculino')
@@ -36,3 +38,26 @@ pessoa {
 }
 
 Nota-se que visualmentre é a mesma estrutura de dados que o JSON, então qual o momento correto de usar cada um deles. Simples, a estrutura JSON é utilizada quando queremos transferir dados de um sistema para outro, ja que é universal entre linguagens, ja as classes e objetos não, cada linguagem tem sua maneira de abordar essas funcionalidades, por isso optamos por eles quando o intuito é fazer uma transferencia de dados pelo mesmo sistema
+
+
+Dentro das clases também conseguimos definir algumas ações que nosso objeto pode realizar, essas ações são chamadas de métodos, que são formados através de funções criadas dentro da propria classe. Esses métodos podem ser chamados juntamente com o nome do objeto, assim se moldando de acordo com os atributos do respectivo objeto criado. Exemplo de classe com método: 
+
+class pessoa{
+    constructor(nome, idade, altura, peso, genero){
+        this.nome = nome;
+        this.idade = idade;
+        this.altura = altura;
+        this.peso = peso;
+        this.genero = genero;
+    }
+
+
+    // Método
+    boas_vindas(){
+        let imc = this.peso / (this.altura * this.altura)
+        console.log(`Seja bem vindo ${this.nome}, com base em seus dados de peso e alutra, calculamos que seu IMC é igual a ${imc}`)
+    }
+}
+
+
+A diferença entre propriedades e métodos é que as propriedades serão as caracteristicas do objeto, enquanto os métodos são as ações que ele consegue executar. Por exemplo, um bojeto instanciado de uma classe pessoa tem "nome" como propriedade e "andar" como método.

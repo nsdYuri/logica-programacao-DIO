@@ -7,6 +7,12 @@ class pessoa{
         this.peso = peso;
         this.genero = genero;
     }
+
+    // Método
+    boas_vindas(){
+        let imc = this.peso / (this.altura * this.altura)
+        console.log(`Seja bem vindo ${this.nome}, com base em seus dados de peso e alutra, calculamos que seu IMC é igual a ${imc}`)
+    }
 }
 
 // Criando objeto
@@ -21,3 +27,7 @@ console.log(ike)
 //     peso: 80,
 //     genero: 'masculino'
 //   }
+
+console.log(ike.nome)
+console.log(ike.idade)
+ike.boas_vindas()
