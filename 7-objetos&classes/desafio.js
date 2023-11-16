@@ -22,5 +22,4 @@ class heroi{
 
 let hero = new heroi('Derek', 15, 'ninja')
 console.log(hero)
-
 hero.atacar()
